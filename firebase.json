@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", "README.md", "CNAME", "**/.*"],
+    "cleanUrls": true,
+    "trailingSlash": true,
+    "redirects": [
+      { "source": "/book", "destination": "https://elevatepractices.typeform.com/to/rLmhuI4f", "type": 301 },
+      { "source": "/2025/10/08/hello-world{,/**}", "destination": "/", "type": 301 },
+      { "source": "/wp-admin{,/**}", "destination": "/", "type": 301 },
+      { "source": "/wp-login.php", "destination": "/", "type": 301 },
+      { "source": "/feed{,/**}", "destination": "/", "type": 301 }
+    ],
+    "headers": [
+      { "source": "/assets/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=2592000" }] }
+    ]
+  }
+}
