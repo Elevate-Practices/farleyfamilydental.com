@@ -315,3 +315,6 @@ svg{width:1.15em;height:1.15em;fill:currentColor;flex-shrink:0}
 .legal ul{padding-left:22px;display:grid;gap:6px}
 .legal a{color:var(--ink)}
 .legal-lead{font-size:18px;color:var(--deep)!important}
+
+/* Mobile action bar: keep the GHL chat bubble beside Book, never on top of it (Elevate standard, Oct 16 2026) */
+.dock{padding-right:84px!important}
